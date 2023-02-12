@@ -11,7 +11,10 @@ This is the starting codebase that will be used in the FREE AWS Cloud Project Bo
 
 ## Instructions
 
-At the start of the bootcamp you need to create a new Github Repository from this template.
+### Start project frontend
+
+#### `cd frontend-react-js``
+#### `npm start`
 
 ## Journaling Homework
 
