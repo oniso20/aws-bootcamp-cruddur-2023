@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn "arn:aws:sns:us-west-2:133170670246:billing-alarm" \
+    --protocol=email \
+    --notification-endpoint=onis.c.emem@gmail.com
