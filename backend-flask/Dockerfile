@@ -18,6 +18,7 @@ RUN pip3 install -r requirements.txt
 # Second Period is 
 COPY . .
 
+
 ENV FLASK_ENV=development
 
 EXPOSE ${PORT}
@@ -26,3 +27,7 @@ EXPOSE ${PORT}
 # CMD used to run flask
 # CMD [ python3 -m flask run --host=0.0.0.0 --port=4567
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=4567"]
+
+
+## add extension to run
+## /api/activities/home 
