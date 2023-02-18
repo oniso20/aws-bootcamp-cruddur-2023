@@ -27,6 +27,3 @@ source venv/bin/activate
 ```
 pip install flask
 ```
-
-export FRONTEND_URL="_"
-export BACKEND_URL="_"
